@@ -1,3 +1,75 @@
+/*Media Quires*/
+@media all and (max-width: 1690px) {
+  .collum-1{
+  width: 400px
+  ;}
+  .collum-2{
+  width: 400px
+  ;}
+  .collum-3{
+  width: 400px
+  ;}
+}
+@media all and (max-width: 1280px) {
+  .collum-1{
+  width: 400px
+  ;}
+  .collum-2{
+  width: 400px
+  ;}
+  .collum-3{
+  width: 400px
+  ;}
+}
+@media all and (max-width: 980px) {
+  .collum-1{
+  width: 400px
+  ;}
+  .collum-2{
+  width: 400px
+  ;}
+  .collum-3{
+  width: 400px
+  ;}
+ }
+@media all and (max-width: 736px) {
+  .collum-1{
+  width: 300px
+  ;}
+  .collum-2{
+  width: 300px
+  ;}
+  .collum-3{
+  width: 300px
+  ;}
+}
+@media all and (max-width: 480px) {
+
+  .collum-1{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  }
+  .collum-2{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  }
+  .collum-3{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  }
+  #About{
+    width: auto;
+  }
+  #Contact{
+    width: auto;
+  }
+  #Footer{
+    width: auto;
+  }
+ }
 /*Header */
 #header{
   border: solid;
@@ -5,6 +77,10 @@
 /* Collums*/
 #collums{
   border: solid;
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+  }
 }
 .collum-1{
   border: solid;
